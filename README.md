@@ -29,7 +29,7 @@ A NN model for image-to-image retrieval, which involves finding similar images i
     - Negative Pair <br />
         ![image](https://github.com/Ctushar721/img-to-img-retrieval/assets/105023001/1ac16d86-0fc8-44b7-9603-0c3029e701c2)
 
-#### Implementing a Siamese Network for Similarity Learning
+#### Implementing a Siamese Network for Similarity Learning [Partially done due to high resource usage for more pairs creation]
 
 -  **Siamese Network**:
     -   **Architecture**: Design a Siamese Network with two identical subnetworks that share weights.
@@ -38,3 +38,9 @@ A NN model for image-to-image retrieval, which involves finding similar images i
     -   **Training**:
         -   Create positive pairs (similar images) and negative pairs (dissimilar images) from the dataset.
         -   Experiment with different ratios of positive to negative pairs to find the optimal balance for training.
+#### Steps to run
+    - The final submitted code is for ResNet Approach. The file name is "resnet.ipynb".
+    - To run the model online we can take help of a tool like Google Colab or Kaggle's notebook.
+        - To do so, upload the file
+        - Upload the dataset (Can also mount google drive)
+        - Click Run All 
