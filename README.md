@@ -24,9 +24,9 @@ A NN model for image-to-image retrieval, which involves finding similar images i
         -   mAP@50: 0.4817864112498961
         -   Mean Rank: 261.11333333333334
     - Some sample image similarities
-    - Positive Pair /n
+    - Positive Pair <br />
         ![image](https://github.com/Ctushar721/img-to-img-retrieval/assets/105023001/f57d0ed3-b1fc-4013-9ff9-bdf6b02dd35e)
-    - Negative Pair
+    - Negative Pair <br />
         ![image](https://github.com/Ctushar721/img-to-img-retrieval/assets/105023001/1ac16d86-0fc8-44b7-9603-0c3029e701c2)
 
 #### Implementing a Siamese Network for Similarity Learning
