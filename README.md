@@ -18,9 +18,16 @@ A NN model for image-to-image retrieval, which involves finding similar images i
     -   **Custom Classifier**: Add a custom classifier on top of ResNet50 to fine-tune the model for the specific action classification task.
     -   **Training**: Fine-tune the model on the dataset.
     -   **Evaluation**:
-        -   Accuracy: 74%
-        -   mAP (K=50): 68%
-        -   Mean Rank: 288
+        -   Accuracy: 73%
+        -   mAP@1: 1.0
+        -   mAP@10: 0.650003847526665
+        -   mAP@50: 0.4817864112498961
+        -   Mean Rank: 261.11333333333334
+    - Some sample image similarities
+    - Positive Pair
+        ![image](https://github.com/Ctushar721/img-to-img-retrieval/assets/105023001/f57d0ed3-b1fc-4013-9ff9-bdf6b02dd35e)
+    - Negative Pair
+        ![image](https://github.com/Ctushar721/img-to-img-retrieval/assets/105023001/1ac16d86-0fc8-44b7-9603-0c3029e701c2)
 
 #### Implementing a Siamese Network for Similarity Learning
 
